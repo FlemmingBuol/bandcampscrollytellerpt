@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<label class="switch">
+		<input type="checkbox" id="derSchalter" onclick=switchfunc();testarrayfunc();top20tags();>
+		<span class="slider round"></span>
+	</label>
+	<div class="main">
+
+		<section id="scroll">
+			<div class="scroll_text">
+				<div class="sticky-img">
+					<div class="chart">
+						<div id="world">
+							<img src="Pfad 93.png" id="media">
+						</div>
+
+
+
+						<div id="ch">
+							<img src="Pfad -1.png" id="media">
+
+						</div>
+					</div>
+				</div>
+				<div id="world" class="step">
+					<h1>
+						Ein Tag auf
+					</h1>
+					<img src="img/bclogo.png" id="media">
+				</div>
+				<div id="ch" class="step">
+					<h1>
+						En Daag uf
+					</h1>
+					<img src="img/bclogo.png" id="media">
+				</div>
+				<div id="world" class="step">
+					<h1>
+						Bandcamp ist die grösste Verkaufseite
+						für unabhängigen Musiker:innen<br>
+						<br>
+						Für einen Tag wurden alle
+						Einkäufe der Welt getrackt<br>
+						<br>
+						Was erzählen die Daten über
+						die Vorlieben der User:innen ?
+					</h1>
+				</div>
+				<div id="ch" class="step">
+					<h1>
+						Bandcamp ist die grösste Verkaufseite
+						für unabhängigen Musiker:innen<br>
+						<br>
+						Für einen Tag wurden alle
+						Einkäufe der Schweiz getrackt<br>
+						<br>
+						Was erzählen die Daten über
+						die Vorlieben der User:innen ?
+					</h1>
+				</div>
+				<div id="media" class="step">
+					<video id="media" controls autoplay loop>
+						<source src="2022-01-26 23-55-08.mp4" type="video/mp4">
+				</div>
+				<div class="step">
+					<h1>
+						Bandcamp zeigt auf seiner Homepage alle Einkäufe in einer Art Live-Ticker
+						<br><br>
+						So lässt sich ablesen, was eingekauft wurde, für wieviel Geld, aus welchem Land eingekauft wurde
+						usw.
+					</h1>
+				</div>
+
+				
+			</div>
+			<div id="Zwischentext1">
+				<h1>
+					Nun was zeigen die Einkäufe?<br><br>
+					Fangen wir mal damit an, was pro Land an Geld für Musik ausgegeben worden ist.
+				</h1>
+			</div>
+			<div class="scroll_text">
+				<div id="world" class="sticky-img">
+					<div class="chart">
+						<img id="media" src="img/Barchart1.png">
+					</div>
+
+				</div>
+				<div id="ch" class="sticky-img">
+					<div class="chart">
+						<img id="media" src="img/Barchart1ch.png">
+					</div>
+
+				</div>
+				<div id="world" class="step">
+					<h1>
+						Die Usa hat bei weitem am meisten Geld ausgegeben
+					</h1>
+				</div>
+				<div id="ch" class="step">
+					<h1>
+						Die Schweiz schafft es mit seinen Ausgaben in die Top 10
+					</h1>
+				</div>
+			</div>
+			<div id="Zwischentext2">
+				<h1>
+					Nun sind Geschmäcker jedoch verschieden, Also schauen wir uns die Gleiche Grafik nochmals an, jedoch
+					werden die 10 meistgebrauchten
+					Tags eingeblendet
+				</h1>
+			</div>
+			<div class="scroll_text">
+				<div class="sticky-img">
+					<div class="chart">
+						<img id="media" src="img/Barchart2.png">
+					</div>
+
+				</div>
+
+
+			</div>
+			<div id="Zwischentext2">
+				<h1 id="world">
+					Sehen wir uns die weltweit Top 20 meistgebrauchten Tags genauer an
+				</h1>
+				<h1 id="ch">
+					Schauen wir uns doch die Top 20 Tags der Schweiz genauer an </h1>
+			</div>
+			<div class="scroll_text">
+				<div class="sticky-img" id="Top 20 meistgebrauchte Tags">
+					<svg id="Top20tagscanvas" width="380" height="500"></svg>
+				</div>
+				<div class="step">
+					<h1 id="world">
+						Der Tag Electronica (neongrün) ist in den meisten Einkäufen vorhanden
+					</h1>
+					<h1 id="ch">
+						Der Tag Electronica (neongrün) ist in den meisten Einkäufen der Schweiz vorhanden
+					</h1>
+				</div>
+
+			</div>
+			<div id="Zwischentext2">
+				<h1 id="world">
+					Als nächstes schauen wir uns an von wo die Musik kommt, die die Welt hört </h1>
+				<h1 id="ch">
+					Als nächstes schauen wir uns an von wo die Musik kommt, die die Schweiz hört
+			</div>
+			<div class="scroll_text">
+				<div id="world" class="sticky-img">
+					<div class="chart">
+						<img id="media" src="img/Barchart3.png">
+					</div>
+
+				</div>
+				<div id="ch" class="sticky-img">
+					<div class="chart">
+						<img id="media" src="img/Barchart3ch.png">
+					</div>
+
+				</div>
+
+
+			</div>
+			<div id="Zwischentext2">
+				<h1 id="world">
+					Zuguterletzt schauen wir uns an, welcher Künstler:in/ welches Label am meisten Geld einkassiert hat.
+				</h1>
+				<h1 id="ch">
+					Zuguterletzt schauen wir uns an, welcher schweizer Künstler:in/ welches schweizer Label am meisten
+					Geld einkassiert hat.
+			</div>
+			<div class="scroll_text">
+				<div id="world" class="sticky-img">
+					<div class="chart">
+						<img id="media" src="img/artistchartworld.png">
+					</div>
+
+				</div>
+				<div id="ch" class="sticky-img">
+					<div class="chart">
+						<img id="media" src="img/artistchartch.png">
+					</div>
+
+				</div>
+
+
+			</div>
+			<div id="Zwischentext2">
+
+				<h1 id="ch">
+					Und von welcher schweizer Künstlerin/Label hat die Schweiz am meisten eingekauft ?
+			</div>
+			<div class="scroll_text">
+				<div id="ch" class="sticky-img">
+					<div class="chart">
+						<img id="media" src="img/Lastonech.png">
+					</div>
+				</div>
+				<div id="ch" class="step">
+					<h1>
+						Carlo Onda aus Heerbrugg ! </h1>
+				</div>
+
+
+			</div>
+			<div id="Abschlusstext">
+				<h1 id="world">
+					Was unglaublich ist, sind die Zahlen die Bandcamp an nur einem Tag gelegt hat.
+					<br><br>
+					Insgesamt wurden 194034 Musikwerke verkauft für rund
+					1,7 millionen US Dollar <br><br>
+					Sieh dir doch noch die CH Version (Button oben links) an für noch mehr Daten !
+				</h1>
+				<h1 id="ch">
+					Was unglaublich ist, sind die Zahlen die Bandcamp an nur einem Tag gelegt hat.
+					<br><br>
+					Insgesamt wurden 194034 Musikwerke verkauft für rund
+					1,7 millionen US Dollar <br><br>
+			</div>
+		</section>
+
+
+		<div id="Top 20 meistgebrauchte Tags">
+			<svg id="Top20tagscanvas" width="390" height="500"></svg>
+		</div>
+		<div id="treemapchartistchart" id="ch"></div>
+		<div id="treemapworldartistchart" id="world"></div>
+		<div id="treemapinlandartistchart" id="ch"></div>
+
+		<script src="js/d3.min.js"></script>
+		<script src="js/scrollama.min.js"></script>
+		<script src="js/config.js"></script>
+
+
+</body>
+
+</html>

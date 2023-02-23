@@ -1,0 +1,71 @@
+html {
+  font-family: sans-serif;
+}
+
+.property {
+  font-family: monospace;
+}
+
+.arial {
+  font-family: Arial;
+}
+
+.times {
+  font-family: 'Times New Roman';
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.light {
+  font-weight: 100;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.black {
+  color: #000000
+}
+
+.blue {
+  color: #0000ff;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+.purple {
+  background-color: #aa99ff;
+}
+
+.orange {
+  background-color: #ffaa00;
+}
+
+.padding0 {
+  padding: 0px;
+}
+
+.padding5 {
+  padding: 5px;
+}

@@ -1,0 +1,147 @@
+.noscrolly {
+  padding: 0;
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.article {
+  position: relative;
+  padding: 0;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+.scroll_text{
+  position: relative;
+  padding: 0;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+
+.step {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  height: 100vh;
+}
+
+.step p {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.sticky-img {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: scale-down;
+ overflow: auto;
+  position: -webkit-sticky;
+  position: sticky;
+top: 240px;
+z-index: -1;
+width: 90rem;
+height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.switch {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+right:0;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  z-index: 100;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+ 
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #FF0000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #FF0000;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#ch {
+  display: none;
+}
+
+#world {
+  display: block;
+}
+#testid{
+  border: 1px dashed #aaa;
+
+}
+
+#media{
+  width: 100%;
+  margin: auto auto;
+}
+
+h1 {
+  font-family: "Consolas";
+  margin-left: auto;
+  margin-right: auto;
+  width: 15rem;
+  
+}
